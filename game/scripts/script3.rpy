@@ -1,0 +1,85 @@
+label answer:
+    "It" "Is that so?"
+    scene bg half onlayer farback at Position(ypos = 1200) 
+    "WHAT THE HELL IS THAT!"
+    "It" "That's a shame."
+    "It" "I can see you very well."
+    "You were too scared to call for help."
+    "So you just stared at it."
+    "Your dumbassery already let it know that you can see it."
+    "It" "You're staring at me as if you're scared."
+    "You" "...Well..."
+    "It" "Yes?"
+    "You" "I AM scared."
+    "It" "Aw."
+    "It" "Am I that scary?"
+    "You" "Yes."
+    "It" "What if I stepped closer?"
+    scene bg footout onlayer farback at Position(ypos = 1200) 
+    "Wow."
+    "This is the worst."
+    "Maybe you should've slammed into that headboard after all."
+    "It" "It's odd."
+    "It" "When I imagined our meeting, I thought you would be screaming a little more."
+    "......................."
+    "You were a little frozen in shock to scream."
+    "You" "Um...how long have you been here..?"
+    "You" "To imagine us meeting?"
+    "It" "Well. I've been in your closet for a bit."
+    "You" "Were you just watching me?"
+    "It" "...Yes. I've been waiting for you to notice."
+    "You" "So...are you like going to kill me?"
+    "It" "Kill you?"
+    "It let out a laugh that grated your ears."
+    "It" "I will kill you sure."
+    "It" "But that would be a little premature."
+    "It" "I want you to be aware of me, to be scared of me."
+    "It" "Before I do it."
+    "It's a pyschopath."
+    "Well."
+    "What did you expect?"
+    "Fork found in kitchen."
+    "Roommates" "Hey! Are you okay in there?"
+    "Your roomates!!"
+    "Finally they can help you!!!"
+    "Help roommates help!"
+    "There is a creepy thing trying to kill you!!"
+    scene bg longhand onlayer farback at Position(ypos = 1200) 
+    "OH FOR F-"
+    "Roommate 1" "You lock the door?"
+    "Roomate 2" "Bro they must be trying to sleep.."
+    "Roomate 1" "I could've sworn they were talking to someone."
+    "Roomate 2" "Ok well then leave them alone."
+    "It" "What nosy friends."
+    "No nosy is good. Come back and be more nosy."
+    "It" "Oh if you dare call them back.."
+    "It" "Well..."
+    "It" "Figure it out."
+    scene bg footout onlayer farback at Position(ypos = 1200) 
+    "You" "Bro at this point just kill me."
+    "It" "Just kill you?"
+    "You" "At this point."
+    "It" "Oh come on, you don't mean that."
+    "It" "You're scared."
+    "You" "Yes I told you I'm scared and I want out."
+    "You close your eyes."
+    scene bg sleep onlayer farback at Position(ypos = 1200) with dissolve
+    "You" "I await."
+    "It" "Don't be boring."
+    scene bg comingcloser onlayer farback at Position(ypos = 1200) with dissolve
+    "Your hair stood up."
+    "You would back away but your headboard was in the way."
+    "It" "You want to die?"
+    scene bg close onlayer farback at Position(ypos = 1200) 
+    "It" "Will you mean it when you're at death's door?"
+    "You" "FINE FINE."
+    "You" "I don't want to die..."
+    "You" "But what do you want..."
+
+    menu:
+        "You know WHAT. INSULT IT.":
+            jump insultit
+        "WHAT ARE YOU THINKING! DON'T INSULT IT":
+            jump dontinsultit
+
+
